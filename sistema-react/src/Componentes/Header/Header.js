@@ -2,12 +2,11 @@ import React from "react";
 import Logo from "../../assets/logo.png";
 import LinksAcc from "./linksAcc";
 
-
 function Header() {
   return (
     <div className="header">
       <div>
-        <img src={Logo} width='160' />
+        <img src={Logo} width='140' className='imgLogo' />
       </div>
       <div className='divAncora'>
         <LinksAcc nome="Turismo Brasil" link="http://www.turismo.gov.br/" />

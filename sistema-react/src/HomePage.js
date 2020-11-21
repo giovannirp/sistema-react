@@ -1,6 +1,7 @@
 import "./App.css";
 import { Header } from './Componentes/Header'
 import { Menu } from "./Componentes/menu";
+import { BannerHome } from "./Componentes/Banner";
 
 function HomePage() {
   return (
@@ -8,6 +9,8 @@ function HomePage() {
       <Header />
 
       <Menu />
+
+      <BannerHome />
     </div>
   );
 }

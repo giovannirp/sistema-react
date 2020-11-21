@@ -1,33 +1,14 @@
 import React from "react";
+import Lis from "./Lis";
 
 function Menu(props) {
-console.log(props)
   return (
     <div className="menus">
       <ul className="menu-list">
         <li>
-          <a href="">Home</a>
-        </li>
-        <li>
-          <a href="">Sobre</a>
-        </li>
-        <li>
-          <a href="">Artigos</a>
-        </li>
-        <li>
-          <a href="">Estudos</a>
-        </li>
-        <li>
-          <a href="">Diretório</a>
-        </li>
-        <li>
-          <a href="">CURSO</a>
-        </li>
-        <li>
-          <a href="">Links</a>
-        </li>
-        <li>
-          <a href="">Contato</a>
+          <Lis nome="Home" ancora="#rere" />
+          <Lis nome="Sobre" ancora="/sobre" />
+          <Lis nome="Contato" ancora="/Contato" />
         </li>
       </ul>
     </div>

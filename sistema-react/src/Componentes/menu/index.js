@@ -1,2 +1,2 @@
 export { default as Menu } from './Menu'
-export { default as Links } from './Links'
+export { default as Lis } from './Lis'

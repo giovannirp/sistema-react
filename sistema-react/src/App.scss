@@ -7,6 +7,11 @@
     height: 150px;
     border: 2px solid #ededed;
     display: flex;
+    border-top: 5px solid #04639c;
+
+    .imgLogo {
+        padding: 10px;
+    }
 
     .divAncora {
       display: flex;
@@ -16,11 +21,12 @@
       padding-right: 20px;
       padding-top: 15px;
     }
+    
   }
 
   .menus {
     height: 45px;
-    background-color: #ededed;
+    background: #04639c;
 
     .menu-list {
       display: flex;
@@ -36,9 +42,10 @@
         font-size: 20px;
         text-decoration: none;
         padding: 10px;
-        color: #00609b;
+        color: #ffffff;
         text-transform: uppercase;
         padding-right: 25px;
+        cursor: pointer;
 
         &:hover {
           text-decoration: underline;

@@ -10,6 +10,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-top: 5px solid #04639c;
+}
+
+.container .header .imgLogo {
+  padding: 10px;
 }
 
 .container .header .divAncora {
@@ -28,7 +33,7 @@
 
 .container .menus {
   height: 45px;
-  background-color: #ededed;
+  background: #04639c;
 }
 
 .container .menus .menu-list {
@@ -50,9 +55,10 @@
   font-size: 20px;
   text-decoration: none;
   padding: 10px;
-  color: #00609b;
+  color: #ffffff;
   text-transform: uppercase;
   padding-right: 25px;
+  cursor: pointer;
 }
 
 .container .menus .menu-list a:hover {
