@@ -1,0 +1,61 @@
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .header {
+  height: 150px;
+  border: 2px solid #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .header .divAncora {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+
+.container .menus {
+  height: 45px;
+  background-color: #ededed;
+}
+
+.container .menus .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  height: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .menus .menu-list a {
+  width: 100%;
+  font: 80% Tahoma;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  color: #00609b;
+  text-transform: uppercase;
+  padding-right: 25px;
+}
+
+.container .menus .menu-list a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=App.css.map */
