@@ -2,6 +2,7 @@ import "./App.css";
 import { Header } from './Componentes/Header'
 import { Menu } from "./Componentes/menu";
 import { BannerHome } from "./Componentes/Banner";
+import { BoxHome } from "./Componentes/BoxHome";
 
 function HomePage() {
   return (
@@ -11,6 +12,8 @@ function HomePage() {
       <Menu />
 
       <BannerHome />
+
+      <BoxHome />
     </div>
   );
 }

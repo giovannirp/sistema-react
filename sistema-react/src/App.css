@@ -64,4 +64,24 @@
 .container .menus .menu-list a:hover {
   text-decoration: underline;
 }
+
+.container .contanerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .contanerBox .box {
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dcdada;
+  -webkit-box-shadow: 1px 2px 2px #e8e8e8;
+          box-shadow: 1px 2px 2px #e8e8e8;
+}
+
+.container .contanerBox .box:nth-last-child(2) {
+  margin-right: 45px;
+  margin-left: 45px;
+}
 /*# sourceMappingURL=App.css.map */
