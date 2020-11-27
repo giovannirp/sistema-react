@@ -4,34 +4,41 @@ import ImgBox2 from "../../assets/img-box2.jpg";
 import ImgBox3 from "../../assets/img-box3.jpg";
 
 function BoxHome() {
+  const data = [
+    {
+      titulo: "Sem Limites Viagens",
+      paragrafo:
+        "Por padrão, todos os elementos possuem o valor content-box para essa propriedade.",
+      img: ImgBox1,
+      link: "https://www.terra.com.br/",
+      target: "_blank"
+    },
+    {
+      titulo: "Passagens com nossas Milhas",
+      paragrafo: "Todos os elementos essa propriedade content-box.",
+      img: ImgBox2,
+    },
+    {
+      titulo: "Melhores ofertas de viagem",
+      paragrafo: " todos os elementos possuem o valor para essa propriedade.",
+      img: ImgBox3,
+    },
+  ];
   return (
     <Fragment>
-      <h1>Novidades de turismo</h1>
+      <h1 className='title-news'>Novidades de turismo</h1>
       <div className="contanerBox">
-        <div className="box">
-          <img src={ImgBox1} />
-          <h1>Titulo</h1>
-          <p>
-            Por padrão, todos os elementos possuem o valor content-box para essa
-            propriedade.
-          </p>
-        </div>
-        <div className="box">
-          <img src={ImgBox2} />
-          <h1>Titulo</h1>
-          <p>
-            Por padrão, todos os elementos possuem o valor content-box para essa
-            propriedade.
-          </p>
-        </div>
-        <div className="box">
-          <img src={ImgBox3} />
-          <h1>Titulo</h1>
-          <p>
-            Por padrão, todos os elementos possuem o valor content-box para essa
-            propriedade.
-          </p>
-        </div>
+        {data.map((itens) => {
+          return (
+            <a href={itens["link"]} target={itens["target"]}>
+              <div className="box">
+                <img src={itens["img"]} />
+                <h1>{itens["titulo"]}</h1>
+                <p>{itens["paragrafo"]}</p>
+              </div>
+            </a>
+          );
+        })}
       </div>
     </Fragment>
   );

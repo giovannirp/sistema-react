@@ -10,7 +10,7 @@
     border-top: 5px solid #04639c;
 
     .imgLogo {
-        padding: 10px;
+      padding: 10px;
     }
 
     .divAncora {
@@ -53,16 +53,37 @@
     }
   }
 
+  .title-news {
+    color: #1c659c;
+    font-size: 22px;
+  }
+
   .contanerBox {
     display: flex;
+    a {
+      display: flex;
+      text-decoration: none;
 
-    .box {
-      max-width: 300px;
-      border-radius: 10px;
-      overflow: hidden;
-      border: 1px solid #dcdada;
-      box-shadow: 1px 2px 2px #e8e8e8;
+      .box {
+        max-width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #dcdada;
+        box-shadow: 1px 2px 2px #e8e8e8;
 
+        h1 {
+          font-size: 20px;
+          padding-left: 20px;
+          color: #04639c;
+        }
+
+        p {
+          line-height: 21px;
+          padding-left: 20px;
+          padding-right: 20px;
+          color: black;
+        }
+      }
       &:nth-last-child(2) {
         margin-right: 45px;
         margin-left: 45px;
