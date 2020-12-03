@@ -1,17 +1,15 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
+import Ancora from "./Ancora";
 import LinksAcc from "./linksAcc";
 
-function Header() {
+function Header(props) {
   return (
     <div className="header">
       <div>
         <img src={Logo} width='140' className='imgLogo' />
       </div>
-      <div className='divAncora'>
-        <LinksAcc nome="Turismo Brasil" link="http://www.turismo.gov.br/" />
-        <LinksAcc nome="Acessibilidade" link="https://www.politize.com.br/acessibilidade-e-o-direito-das-pessoas-com-deficiencia/" />
-      </div>
+      {props.children}
     </div>
   );
 }
