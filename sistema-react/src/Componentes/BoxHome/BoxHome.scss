@@ -1,0 +1,41 @@
+.contanerBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    display: flex;
+    text-decoration: none;
+
+    .box {
+      max-width: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #dcdada;
+      box-shadow: 1px 2px 2px #e8e8e8;
+      margin-bottom: 20px;
+
+      h1 {
+        font-size: 20px;
+        padding-left: 20px;
+        color: #04639c;
+      }
+
+      small {
+        line-height: 21px;
+        color: black;
+        font-size: 16px;
+      }
+
+      p {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+      }
+    }
+    &:nth-last-child(2) {
+      margin-right: 45px;
+      margin-left: 45px;
+    }
+  }
+}

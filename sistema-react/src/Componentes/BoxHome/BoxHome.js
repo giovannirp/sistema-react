@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import ImgBox1 from "../../assets/img-box1.jpg";
 import ImgBox2 from "../../assets/img-box2.jpg";
 import ImgBox3 from "../../assets/img-box3.jpg";
+import "./BoxHome.css";
 
 function BoxHome() {
   const data = [
@@ -20,7 +21,7 @@ function BoxHome() {
     },
     {
       titulo: "Melhores ofertas de viagem",
-      paragrafo: " todos os elementos possuem o valor para essa propriedade.",
+      paragrafo: <small>todos os elementos possuem o valor para essa propriedade.</small>,
       img: ImgBox3,
     },
   ];

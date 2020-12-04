@@ -69,44 +69,4 @@
   color: #1c659c;
   font-size: 22px;
 }
-
-.container .contanerBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.container .contanerBox a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-}
-
-.container .contanerBox a .box {
-  max-width: 300px;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid #dcdada;
-  -webkit-box-shadow: 1px 2px 2px #e8e8e8;
-          box-shadow: 1px 2px 2px #e8e8e8;
-}
-
-.container .contanerBox a .box h1 {
-  font-size: 20px;
-  padding-left: 20px;
-  color: #04639c;
-}
-
-.container .contanerBox a .box p {
-  line-height: 21px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: black;
-}
-
-.container .contanerBox a:nth-last-child(2) {
-  margin-right: 45px;
-  margin-left: 45px;
-}
 /*# sourceMappingURL=App.css.map */

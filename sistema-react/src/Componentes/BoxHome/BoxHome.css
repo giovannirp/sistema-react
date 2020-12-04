@@ -1,0 +1,51 @@
+.contanerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contanerBox a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.contanerBox a .box {
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #dcdada;
+  -webkit-box-shadow: 1px 2px 2px #e8e8e8;
+          box-shadow: 1px 2px 2px #e8e8e8;
+  margin-bottom: 20px;
+}
+
+.contanerBox a .box h1 {
+  font-size: 20px;
+  padding-left: 20px;
+  color: #04639c;
+}
+
+.contanerBox a .box small {
+  line-height: 21px;
+  color: black;
+  font-size: 16px;
+}
+
+.contanerBox a .box p {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+
+.contanerBox a:nth-last-child(2) {
+  margin-right: 45px;
+  margin-left: 45px;
+}
+/*# sourceMappingURL=BoxHome.css.map */
