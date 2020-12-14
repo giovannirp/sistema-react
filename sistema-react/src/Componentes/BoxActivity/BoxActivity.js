@@ -1,7 +1,12 @@
-import React, { Fragment } from "react";
+import React from "react";
+import ContadorViagem from "../ContadorViagem/ContadorViagem";
 
 function BoxActivity() {
-  return <Fragment>Box Central</Fragment>;
+  return (
+    <div>
+      <ContadorViagem numeroInicial={3} />
+    </div>
+  );
 }
 
 export default BoxActivity;
