@@ -4,6 +4,7 @@ import { Menu } from "./Componentes/menu";
 import { BannerHome } from "./Componentes/Banner";
 import { BoxHome } from "./Componentes/BoxHome";
 import BoxActivity from "./Componentes/BoxActivity/BoxActivity";
+import Footer from "./Componentes/Footer/Footer";
 
 function HomePage() {
   return (
@@ -19,6 +20,8 @@ function HomePage() {
       <BoxHome />
 
       <BoxActivity />
+
+      <Footer texto="Todos os direito resevados" />
 
     </div>
   );

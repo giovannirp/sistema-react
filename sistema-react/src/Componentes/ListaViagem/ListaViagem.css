@@ -1,0 +1,29 @@
+.tabelaViagem {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #dcdada;
+  -webkit-box-shadow: 1px 2px 2px #e8e8e8;
+          box-shadow: 1px 2px 2px #e8e8e8;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 169px;
+  overflow: auto;
+}
+
+.tabelaViagem .Par {
+  background-color: #ddd;
+}
+
+.tabelaViagem .tr-head {
+  background-color: #1c659c;
+  color: white;
+}
+
+.tabelaViagem table {
+  width: 100%;
+}
+
+.tabelaViagem table tr {
+  text-align: center;
+}
+/*# sourceMappingURL=ListaViagem.css.map */
