@@ -1,5 +1,5 @@
 import "./App.css";
-import { Ancora, Header } from './Componentes/Header'
+import { Ancora, Header } from "./Componentes/Header";
 import { Menu } from "./Componentes/menu";
 import { BannerHome } from "./Componentes/Banner";
 import { BoxHome } from "./Componentes/BoxHome";
@@ -22,7 +22,6 @@ function HomePage() {
       <BoxActivity />
 
       <Footer texto="Todos os direito resevados" />
-
     </div>
   );
 }

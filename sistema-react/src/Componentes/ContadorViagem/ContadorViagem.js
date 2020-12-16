@@ -13,7 +13,7 @@ class ContadorViagem extends Component {
 
   inc = () => {
     this.setState({
-      numero: this.state.numero + this.state.passo,
+      numero: parseInt(this.state.numero + this.state.passo),
     });
   };
 
@@ -32,6 +32,7 @@ class ContadorViagem extends Component {
   reset = () => {
     this.setState({
       passo: "",
+      numero: ""
     });
   };
 
