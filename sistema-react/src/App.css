@@ -76,6 +76,21 @@
   display: flex;
 }
 
+.container .container-banner {
+  position: relative;
+}
+
+.container .container-banner .text-animate {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 50px;
+  color: #673AB7;
+  background: white;
+  padding: 10px;
+  margin-top: 60px;
+}
+
 .container .Footer {
   border-top: #1c659c solid 4px;
   padding: 3px;
