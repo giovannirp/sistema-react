@@ -10,6 +10,11 @@ const Content = (props) => {
   return (
     <main className="Content">
       <Switch>
+        <Route path="/" exact={true}>
+          <BannerHome />
+          <BoxHome />
+          <BoxActivity />
+        </Route>
         <Route path="/home">
           <BannerHome />
           <BoxHome />
