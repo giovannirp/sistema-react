@@ -6,8 +6,8 @@ function Menu(props) {
     <div className="menus">
       <ul className="menu-list">
         <li>
-          <Lis nome="Home" ancora="#rere" />
-          <Lis nome="Sobre" ancora="/sobre" />
+          <Lis nome="Home" ancora="/home" />
+          <Lis nome="Sobre" ancora="/about" />
           <Lis nome="Contato" ancora="/Contato" />
         </li>
       </ul>
