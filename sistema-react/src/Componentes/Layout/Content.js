@@ -4,13 +4,13 @@ import About from "../About/About";
 import { BannerHome } from "../Banner";
 import BoxActivity from "../BoxActivity/BoxActivity";
 import { BoxHome } from "../BoxHome";
-import Footer from "../Footer/Footer";
+import NotFound from "../NotFound.js/NotFound";
 
 const Content = (props) => {
   return (
     <main className="Content">
       <Switch>
-        <Route path="/" exact={true}>
+         <Route path="/" exact={true}>
           <BannerHome />
           <BoxHome />
           <BoxActivity />
@@ -22,6 +22,9 @@ const Content = (props) => {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="*">
+          <NotFound />
         </Route>
       </Switch>
     </main>
