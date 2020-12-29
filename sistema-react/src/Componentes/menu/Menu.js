@@ -8,6 +8,7 @@ function Menu(props) {
         <li>
           <Lis nome="Home" ancora="/home" />
           <Lis nome="Sobre" ancora="/about" />
+          <Lis nome="Lista de Usuarios" ancora="/user" />
           <Lis nome="Contato" ancora="/Contato" />
         </li>
       </ul>

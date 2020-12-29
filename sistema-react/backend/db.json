@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Giovanni Ribeiro Pinto",
+      "email": "giovanni_ge@hotmail.com",
+      "id": 3,
+      "telefone": "11972968761"
+    },
+    {
+      "name": "Cassino",
+      "email": "cassino@hotmail.com",
+      "id": 4,
+      "telefone": "88888888"
+    },
+    {
+      "name": "gigi",
+      "email": "giovanni_ge@hotmail.com",
+      "telefone": "7777777",
+      "id": 5
+    },
+    {
+      "name": "giginonovo",
+      "email": "ted@hotm",
+      "telefone": "77777",
+      "id": 6
+    }
+  ]
+}
