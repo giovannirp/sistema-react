@@ -1,5 +1,5 @@
 .container {
-  max-width: 1000px;
+  max-width: 1024px;
   width: 100%;
   margin: 0 auto;
 }
@@ -78,6 +78,8 @@
 
 .container .container-banner {
   position: relative;
+  max-width: 1024px;
+  overflow: hidden;
 }
 
 .container .container-banner .text-animate {

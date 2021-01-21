@@ -6,6 +6,7 @@ import BoxActivity from "../BoxActivity/BoxActivity";
 import { BoxHome } from "../BoxHome";
 import NotFound from "../NotFound.js/NotFound";
 import UserCrud from "../User/UserCrud";
+import WordDays from "../WordDay/WordDay";
 
 const Content = (props) => {
   return (
@@ -20,6 +21,7 @@ const Content = (props) => {
           <BannerHome />
           <BoxHome />
           <BoxActivity />
+          <WordDays />
         </Route>
         <Route path="/about">
           <About />
