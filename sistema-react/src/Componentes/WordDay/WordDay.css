@@ -1,0 +1,39 @@
+.ContentWord h2 {
+  color: #1c659c;
+  font-size: 24px;
+}
+
+.ContentWord p {
+  color: #d71658;
+}
+
+.ContentWord .containerBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ContentWord .containerBtn .btnStyle {
+  background: #1c659c;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 7px;
+  margin-right: 20px;
+}
+
+.ContentWord .containerBtn .btnClean {
+  background: #c00f02;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 7px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=WordDay.css.map */

@@ -3,7 +3,7 @@ import useInterval from "@use-it/interval";
 import BannerImg from "../../assets/banner.jpg";
 
 function BannerHome() {
-  const words = ["Experiência em viagem", "Novas Viagem", "Boas Promoões"];
+  const words = ["Experiência em viagem", "Novas Viagem", "Boas Promoção"];
   const [currentWolrd, setCurrentWolrd] = useState(0);
   const logicWolrd = () =>
     currentWolrd + 1 < words.length ? currentWolrd + 1 : 0;

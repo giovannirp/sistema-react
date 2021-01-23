@@ -4,6 +4,7 @@ import About from "../About/About";
 import { BannerHome } from "../Banner";
 import BoxActivity from "../BoxActivity/BoxActivity";
 import { BoxHome } from "../BoxHome";
+import Cronometro from "../Cronometro/Cronometro";
 import NotFound from "../NotFound.js/NotFound";
 import UserCrud from "../User/UserCrud";
 import WordDays from "../WordDay/WordDay";
@@ -16,6 +17,7 @@ const Content = (props) => {
           <BannerHome />
           <BoxHome />
           <BoxActivity />
+          <WordDays />
         </Route>
         <Route path="/home">
           <BannerHome />
@@ -28,6 +30,9 @@ const Content = (props) => {
         </Route>
         <Route path="/user">
           <UserCrud />
+        </Route>
+        <Route path="/cronometro">
+          <Cronometro />
         </Route>
         <Route path="*">
           <NotFound />

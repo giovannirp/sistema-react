@@ -1,0 +1,38 @@
+.ContentWord {
+  h2 {
+    color: #1c659c;
+    font-size: 24px;
+  }
+
+  p {
+    color: #d71658;
+  }
+
+  .containerBtn {
+    display: flex;
+
+    .btnStyle {
+      background: #1c659c;
+      color: white;
+      border-radius: 5px;
+      border: 0;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding: 7px;
+      margin-right: 20px;
+    }
+
+    .btnClean {
+      background: #c00f02;
+      color: white;
+      border-radius: 5px;
+      border: 0;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding: 7px;
+      margin-right: 20px;
+    }
+  }
+}
